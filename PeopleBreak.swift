@@ -10,6 +10,17 @@ import UIKit
 
 class PeopleBreak: UIViewController {
 
+    @IBOutlet var yesButton: UIButton!
+    @IBOutlet var noButtton: UIButton!
+    @IBAction func noButtonChanged(sender: UIButton) {
+        
+        let alertView = UIAlertController(title: "Come on, don't be shy!", message: "Are you really alone?", preferredStyle: .Alert)
+        
+        alertView.addAction(UIAlertAction(title: "cancel", style: .Cancel, handler: nil))
+        presentViewController(alertView, animated: true, completion: nil)
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,14 +33,6 @@ class PeopleBreak: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
