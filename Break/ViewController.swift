@@ -45,6 +45,7 @@ class ViewController: UIViewController, FBLoginViewDelegate {
         println("Error: \(handleError.localizedDescription)")
     }
     
+    //comentário aleatório
      
     
 
