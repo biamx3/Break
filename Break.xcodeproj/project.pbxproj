@@ -10,6 +10,7 @@
 		22A420001AB510850047120B /* SliderBreak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A41FFF1AB510850047120B /* SliderBreak.swift */; };
 		22A420021AB528E30047120B /* TimeBreak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A420011AB528E30047120B /* TimeBreak.swift */; };
 		22BC94551AB5BB51009E3ABB /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BC94541AB5BB51009E3ABB /* FacebookSDK.framework */; };
+		86FC2E141AB7257800822942 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86FC2E131AB7257800822942 /* FacebookSDK.framework */; };
 		E13A7D301AB319A90028C23C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13A7D2F1AB319A90028C23C /* AppDelegate.swift */; };
 		E13A7D331AB319A90028C23C /* Break.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E13A7D311AB319A90028C23C /* Break.xcdatamodeld */; };
 		E13A7D351AB319A90028C23C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13A7D341AB319A90028C23C /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 		22A41FFF1AB510850047120B /* SliderBreak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderBreak.swift; sourceTree = "<group>"; };
 		22A420011AB528E30047120B /* TimeBreak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeBreak.swift; sourceTree = "<group>"; };
 		22BC94541AB5BB51009E3ABB /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		86FC2E131AB7257800822942 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Downloads/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		E13A7D2A1AB319A90028C23C /* Break.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Break.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E13A7D2E1AB319A90028C23C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E13A7D2F1AB319A90028C23C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 			files = (
 				E13A7D531AB31AB30028C23C /* FacebookSDK.framework in Frameworks */,
 				22BC94551AB5BB51009E3ABB /* FacebookSDK.framework in Frameworks */,
+				86FC2E141AB7257800822942 /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +86,7 @@
 				E13A7D2C1AB319A90028C23C /* Break */,
 				E13A7D451AB319A90028C23C /* BreakTests */,
 				E13A7D2B1AB319A90028C23C /* Products */,
+				86FC2E131AB7257800822942 /* FacebookSDK.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -380,6 +384,7 @@
 					"$(inherited)",
 					/Users/beatrizmelomousinhomagalhaes/Documents/FacebookSDK,
 					/Users/AbdallahSeoud/Documents/FacebookSDK,
+					/Users/tamyresfreitas/Downloads/FacebookSDK,
 				);
 				INFOPLIST_FILE = Break/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -396,6 +401,7 @@
 					"$(inherited)",
 					/Users/beatrizmelomousinhomagalhaes/Documents/FacebookSDK,
 					/Users/AbdallahSeoud/Documents/FacebookSDK,
+					/Users/tamyresfreitas/Downloads/FacebookSDK,
 				);
 				INFOPLIST_FILE = Break/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

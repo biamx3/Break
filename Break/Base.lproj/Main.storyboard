@@ -635,6 +635,9 @@
                                 <state key="normal" title="No...">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="noButtonChanged:" destination="75R-qK-GbQ" eventType="touchUpInside" id="Oyd-S6-eDZ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.63735393273526919" green="0.94111032196969702" blue="0.59907157377483111" alpha="1" colorSpace="calibratedRGB"/>
@@ -728,6 +731,10 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="noButtton" destination="uvb-QV-umM" id="2eR-tU-mXx"/>
+                        <outlet property="yesButton" destination="XMB-wi-Col" id="pBP-Qg-PZh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2F7-dB-vf4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
